@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #00293A;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+.navbar img {
+    height: 40px;
+}
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+.navbar-left img {
+    margin-right: 15px;
+}
+.navbar-left span {
+    margin-right: 20px;
+}
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+.navbar-right span {
+    margin-left: 20px;
+    cursor: pointer;
+}
+.navbar-right a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.search-bar {
+    width: 100%;
+    max-width: 400px;
+    position: relative;
+}
+.search-bar input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+}
+.search-bar button {
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    border: none;
+    background: none;
+    color: #555;
+    font-size: 18px;
+}
+.second-navbar {
+    background-color: #0B2E42;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.second-navbar a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.second-navbar a:hover {
+    text-decoration: underline;
+}
+/* Styles for the product categories */
+.product-categories {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.category-box {
+    background-color: #F4F8FC;
+    border: 1px solid #E3E6EA;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: calc(33% - 40px);
+    box-sizing: border-box;
+    text-align: center;
+}
+.category-box img {
+    max-height: 100px;
+    margin-bottom: 10px;
+}
+.category-box h3 {
+    font-size: 18px;
+    color: #00293A;
+    margin-bottom: 10px;
+}
+.category-box p {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.category-box a {
+    color: #FF6F00;
+    text-decoration: none;
+    font-weight: bold;
+}
+.category-box a:hover {
+    text-decoration: underline;
+}
