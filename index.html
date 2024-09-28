@@ -4,133 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fair Price Hub</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        .navbar {
-            background-color: #00293A;
-            color: white;
-            padding: 10px 0;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 50px;
-        }
-        .navbar img {
-            height: 40px;
-        }
-        .navbar-left {
-            display: flex;
-            align-items: center;
-        }
-        .navbar-left img {
-            margin-right: 15px;
-        }
-        .navbar-left span {
-            margin-right: 20px;
-        }
-        .navbar-right {
-            display: flex;
-            align-items: center;
-        }
-        .navbar-right span {
-            margin-left: 20px;
-            cursor: pointer;
-        }
-        .navbar-right a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-            margin-left: 20px;
-        }
-        .search-bar {
-            width: 100%;
-            max-width: 400px;
-            position: relative;
-        }
-        .search-bar input {
-            width: 100%;
-            padding: 8px;
-            border-radius: 20px;
-            border: none;
-            font-size: 16px;
-        }
-        .search-bar button {
-            position: absolute;
-            right: 10px;
-            top: 7px;
-            border: none;
-            background: none;
-            color: #555;
-            font-size: 18px;
-        }
-        .second-navbar {
-            background-color: #0B2E42;
-            padding: 10px 50px;
-            display: flex;
-            justify-content: start;
-            align-items: center;
-        }
-        .second-navbar a {
-            color: white;
-            margin-right: 20px;
-            text-decoration: none;
-            font-size: 14px;
-        }
-        .second-navbar a:hover {
-            text-decoration: underline;
-        }
-        /* Styles for the product categories */
-        .product-categories {
-            padding: 50px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
-        .category-box {
-            background-color: #F4F8FC;
-            border: 1px solid #E3E6EA;
-            border-radius: 10px;
-            padding: 20px;
-            margin: 20px;
-            width: calc(33% - 40px);
-            box-sizing: border-box;
-            text-align: center;
-        }
-        .category-box img {
-            max-height: 100px;
-            margin-bottom: 10px;
-        }
-        .category-box h3 {
-            font-size: 18px;
-            color: #00293A;
-            margin-bottom: 10px;
-        }
-        .category-box p {
-            font-size: 14px;
-            color: #333;
-            margin-bottom: 10px;
-        }
-        .category-box a {
-            color: #FF6F00;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .category-box a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your external CSS -->
 </head>
 <body>  
 
     <!-- Navbar Section -->
     <div class="navbar">
         <div class="navbar-left">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Emblem_of_India_%28without_motto%29.svg/1200px-Emblem_of_India_%28without_motto%29.svg.png" alt="Indian Emblem" width="50px">
-            <span><b>Bharati warriors</b><br>Government e Marketplace</span>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUVv5GP39kaK_lpt5lRKPt3QMRgDogSYwF6A&s" alt="Indian Emblem" width="50px">
+            <span><b>Bot Army</b><br>Government e Marketplace</span>
         </div>
         <div class="search-bar">
             <input type="text" placeholder="Looking for something?">
@@ -150,41 +32,52 @@
 
     <!-- Product Categories Section -->
     <div class="product-categories">
+        <!-- Electronic Items -->
         <div class="category-box">
             <img src="https://thumbs.dreamstime.com/b/many-used-modern-electronic-gadgets-use-white-floor-reuse-recycle-concept-top-view-153892434.jpg" alt="Electronic Items">
             <h3>Electronic Items</h3>
             <p>Laptops<br>CCTV Cameras<br>Printers</p>
             <a href="electronics.html">View All</a> <!-- Link to Electronics Page -->
         </div>
+
+        <!-- Medical -->
         <div class="category-box">
             <img src="https://img.freepik.com/premium-photo/overhead-view-medical-equipments-with-digital-tablet-white-backdrop_1026950-93867.jpg" alt="Medical">
-            <h3>MEDICAL</h3>
+            <h3>Medical</h3>
             <p>Hand Sanitizer<br>Air Pollution Mask<br>Surgical Gloves</p>
-            <a href="#">View All</a>
+            <a href="medical.html">View All</a> <!-- Link to Medical Page -->
         </div>
+
+        <!-- Stationary -->
         <div class="category-box">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI5n6-tSz9MbXQBygqIY5XpHP2Ulh2Ho11Ag&s" alt="Stationary">
             <h3>Stationary</h3>
             <p>Registers<br>Files<br>Pages</p>
-            <a href="#">View All</a>
+            <a href="stationary.html">View All</a> <!-- Link to Stationary Page -->
         </div>
+
+        <!-- Furniture -->
         <div class="category-box">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAuoMzhx1ylAwTX1dzq3-pkFi_vubI0-qRxg&s" alt="Furniture">
-            <h3>FURNITURE</h3>
+            <h3>Furniture</h3>
             <p>Office Chair<br>Computer Desk<br>Lounge Chair</p>
-            <a href="#">View All</a>
+            <a href="furniture.html">View All</a> <!-- Link to Furniture Page -->
         </div>
+
+        <!-- Fire Safety -->
         <div class="category-box">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2E5TPMAH5OhQ_68lGvSEHMXYkqtu45tb4bg&s" alt="Fire Safety">
-            <h3>FIRE SAFETY</h3>
+            <h3>Fire Safety</h3>
             <p>Fire Extinguishers<br>Sprinklers<br>Smoke Detectors</p>
-            <a href="#">View All</a>
+            <a href="fire_safety.html">View All</a> <!-- Link to Fire Safety Page -->
         </div>
+
+        <!-- Building Material -->
         <div class="category-box">
             <img src="https://okcredit-blog-images-prod.storage.googleapis.com/2021/05/building-material1--1-.jpg" alt="Building Material">
             <h3>Building Material</h3>
             <p>Cement<br>Plaster of Paris<br>Tiles</p>
-            <a href="#">View All</a>
+            <a href="building_material.html">View All</a> <!-- Link to Building Material Page -->
         </div>
     </div>
 
